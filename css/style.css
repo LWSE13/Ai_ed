@@ -1,0 +1,64 @@
+:root {
+  /* Primary brand colors */
+  --col-dark: #1D2B2C;     
+  --col-gray: #363835;     
+  --col-blue: #6D95B1;     
+  --col-green: #51B788;    
+  --col-lightgreen: #89CC99; 
+  --col-pastelgreen: #A9E2C5;
+
+  /*Background*/
+  --col-cream: #FFF1E4;    
+  --col-white: #FFFFFF;    
+
+  /* Text */
+  --text-dark: #1D2B2C;
+  --text-light: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--col-cream);
+  color: var(--text-dark);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--col-gray);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+
+#nav_links {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.navigation_link {
+    color: var(--text-light);
+}
+
+#header_img_container{
+    display: flex;
+    height: 15vh;
+    align-items: center;
+}
+
+#header_img{
+    height: 80%;
+}
