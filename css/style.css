@@ -83,6 +83,7 @@ nav {
     justify-content: space-between;
     flex-direction: row;
     list-style: none;
+    gap: 5rem;
 }
 
 .nav_links li {
@@ -202,6 +203,8 @@ main {
     align-items: center;
     text-align: center;
     transition: transform 0.3s;
+    text-decoration: none;
+    color: inherit; /* No cards changing colour */
 }
 
 .card:hover {
@@ -253,6 +256,7 @@ footer p {
 /* Media Queries */
 
 /* Tablets media query  */
+    /* Home Page */
 @media (max-width: 1024px) {
     nav {
         margin: 0 3rem;
@@ -302,6 +306,7 @@ footer p {
 
 /* Mobile devices*/
 @media (max-width: 768px) {
+    /* Home Page */
     header {
         padding: 0;
     }
