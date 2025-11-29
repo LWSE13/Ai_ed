@@ -69,7 +69,7 @@ form {
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: var(--col-green);
+    border-color: var(--col-lightgreen);
 }
 
 .form-group textarea {
