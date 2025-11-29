@@ -3,11 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contant Us</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
     <div id="header-placeholder"></div>
+    
+    <main>
+        <section class="contact-container">
+            <div class="contact-text">
+                <h1>Want to get in touch?</h1>
+                <p>We're happy to help and would love to hear from you! Whether you have questions about AI in education, new ideas to share, or feedback about our content — feel free to drop us a message. Our team is always open to discussions about how technology can make learning more engaging, inclusive, and effective for everyone.</p>
+                <p>Whether you're an educator, student, or simply curious about the future of learning, we're happy to connect and exchange ideas. Your thoughts help us grow, improve, and continue creating meaningful content that supports both teachers and learners in understanding the evolving role of AI in education.</p>
+            </div>
+            
+            <div class="contact-form">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="firstName">*First Name</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName">*Last Name</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">*Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">*Message</label>
+                        <textarea id="message" name="message" rows="8" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">SUBMIT</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    
     <div id="footer-placeholder"></div>
     <script src="js/script.js"></script>
 </body>
