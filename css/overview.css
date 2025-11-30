@@ -149,8 +149,13 @@
         padding: 2rem 3rem;
     }
 
-    .benefits-grid {
-        grid-template-columns: repeat(2, 1fr);
+    .benefit-card {
+        width: calc(50% - 1rem);
+    }
+
+    .benefit-card:nth-child(4),
+    .benefit-card:nth-child(5) {
+        width: calc(50% - 1rem);
     }
 
     .overview-content {
@@ -184,18 +189,31 @@
         max-width: 300px;
     }
 
-    .overview-text p {
+    .under-text {
+        padding: 0 1.5rem;
+    }
+
+    .overview-text p, .under-text p {
         font-size: 1rem;
         text-align: left;
     }
 
     .benefits-grid {
-        grid-template-columns: 1fr;
+        flex-direction: column;
+        align-items: center;
         gap: 1.5rem;
     }
 
     .benefit-card {
+        width: 100%;
+        max-width: 350px;
         padding: 1.5rem;
+    }
+
+    .benefit-card:nth-child(4),
+    .benefit-card:nth-child(5) {
+        width: 100%;
+        max-width: 350px;
     }
 
     .card-title {
