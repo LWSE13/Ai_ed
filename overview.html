@@ -1,72 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Overview & Benefits</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/overview.css">
-</head>
-<body>
-    <div id="header-placeholder"></div>
-    
-    <main>
-        <!-- Overview Section -->
-        <section class="overview-section">
-            <h1 class="overview-title">Overview</h1>
-            <div class="content-title-underlining"></div>
-            <div class="overview-content">
-                <img src="css/images/overview-students.png" alt="Students raising hands" class="overview-image">
-                <div class="overview-text">
-                    <p>Artificial Intelligence (AI) is transforming the education landscape by reshaping how students learn and how teachers teach. From personalized learning platforms to automated grading systems, AI is becoming a powerful tool that enhances both efficiency and engagement in classrooms.</p>
-                    <p>Instead of replacing teachers, AI acts as a supportive assistant, helping identify learning gaps, adapting materials to individual needs, and freeing up educators to focus on creativity and connection. By combining human insight with intelligent technology, education is becoming more inclusive, efficient, and tailored than ever before.</p>
-                </div>
-            </div>
-        </section>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Overview & Benefits</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/overview.css" />
+	</head>
+	<body>
+		<div id="header-placeholder"></div>
 
-        <!-- Benefits Cards Section -->
-        <section class="benefits-section">
-            <div class="benefits-grid">
-                <!-- Card 1 -->
-                <div class="benefit-card expandable-card">
-                    <h3 class="card-title">Personalized Learning</h3>
-                    <p class="card-description">AI tailors lessons to match each student's learning speed, strengths, and weaknesses. It helps teachers deliver content that adapts automatically to every learner's needs.</p>
-                    <button class="expand-btn" aria-label="Expand card">+</button>
-                </div>
+		<main>
+			<!-- Overview Section -->
+			<section class="overview-section">
+				<div class="title-underline-spacing">
+					<h1 class="overview-title">Overview</h1>
+					<div class="content-title-underlining"></div>
+				</div>
+				<div class="overview-content">
+					<img
+						src="css/images/overview-students.png"
+						alt="Students raising hands"
+						class="overview-image"
+					/>
+					<div class="overview-text">
+						<p>
+							Artificial Intelligence (AI) is transforming the education
+							landscape by reshaping how students learn and how teachers teach.
+							From personalized learning platforms to automated grading systems,
+							AI is becoming a powerful tool that enhances both efficiency and
+							engagement in classrooms.
+						</p>
+						<p>
+							Instead of replacing teachers, AI acts as a supportive assistant,
+							helping identify learning gaps, adapting materials to individual
+							needs, and freeing up educators to focus on creativity and
+							connection. By combining human insight with intelligent
+							technology, education is becoming more inclusive, efficient, and
+							tailored than ever before.
+						</p>
+					</div>
+				</div>
+			</section>
 
-                <!-- Card 2 -->
-                <div class="benefit-card expandable-card">
-                    <h3 class="card-title">Time Savings for Teachers</h3>
-                    <p class="card-description">AI can automate repetitive tasks like grading quizzes, managing attendance, and organizing schedules — freeing teachers to focus on creativity and student interaction.</p>
-                    <button class="expand-btn" aria-label="Expand card">+</button>
-                </div>
+			<!-- Benefits Cards Section -->
+			<section class="benefits-section">
+				<div class="benefits-grid">
+					<!-- Card 1 -->
+					<div class="benefit-card">
+						<h3 class="card-title">Personalized Learning</h3>
+						<p class="card-description">
+							AI tailors lessons to match each student's learning speed,
+							strengths, and weaknesses. It helps teachers deliver content that
+							adapts automatically to every learner's needs.
+						</p>
+						<button class="expand-btn" aria-label="Expand card">+</button>
+					</div>
 
-                <!-- Card 3 -->
-                <div class="benefit-card expandable-card">
-                    <h3 class="card-title">Accessibility & Inclusion</h3>
-                    <p class="card-description">AI-powered tools make learning easier for students with disabilities or language barriers. Features like speech recognition, translation, and text-to-speech create more inclusive classrooms.</p>
-                    <button class="expand-btn" aria-label="Expand card">+</button>
-                </div>
+					<!-- Card 2 -->
+					<div class="benefit-card">
+						<h3 class="card-title">Time Savings for Teachers</h3>
+						<p class="card-description">
+							AI can automate repetitive tasks like grading quizzes, managing
+							attendance, and organizing schedules — freeing teachers to focus
+							on creativity and student interaction.
+						</p>
+						<button class="expand-btn" aria-label="Expand card">+</button>
+					</div>
 
-                <!-- Card 4 -->
-                <div class="benefit-card expandable-card">
-                    <h3 class="card-title">Data-Driven Insights</h3>
-                    <p class="card-description">By analyzing student performance data, AI helps educators identify learning gaps and track progress. This allows teachers to make data-informed decisions and offer better support.</p>
-                    <button class="expand-btn" aria-label="Expand card">+</button>
-                </div>
+					<!-- Card 3 -->
+					<div class="benefit-card">
+						<h3 class="card-title">Accessibility & Inclusion</h3>
+						<p class="card-description">
+							AI-powered tools make learning easier for students with
+							disabilities or language barriers. Features like speech
+							recognition, translation, and text-to-speech create more inclusive
+							classrooms.
+						</p>
+						<button class="expand-btn" aria-label="Expand card">+</button>
+					</div>
 
-                <!-- Card 5 -->
-                <div class="benefit-card expandable-card">
-                    <h3 class="card-title">24/7 Support</h3>
-                    <p class="card-description">Chatbots and virtual assistants give students instant help anytime. They can answer questions, provide feedback, and guide learners through tasks even outside school hours.</p>
-                    <button class="expand-btn" aria-label="Expand card">+</button>
-                </div>
-            </div>
-        </section>
-    </main>
-    
-    <div id="footer-placeholder"></div>
-    <script src="js/script.js"></script>
-    <script src="js/overview.js"></script>
-</body>
+					<!-- Card 4 -->
+					<div class="benefit-card">
+						<h3 class="card-title">Data-Driven Insights</h3>
+						<p class="card-description">
+							By analyzing student performance data, AI helps educators identify
+							learning gaps and track progress. This allows teachers to make
+							data-informed decisions and offer better support.
+						</p>
+						<button class="expand-btn" aria-label="Expand card">+</button>
+					</div>
+
+					<!-- Card 5 -->
+					<div class="benefit-card">
+						<h3 class="card-title">24/7 Support</h3>
+						<p class="card-description">
+							Chatbots and virtual assistants give students instant help
+							anytime. They can answer questions, provide feedback, and guide
+							learners through tasks even outside school hours.
+						</p>
+						<button class="expand-btn" aria-label="Expand card">+</button>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<div id="footer-placeholder"></div>
+		<script src="js/script.js"></script>
+		<script src="js/overview.js"></script>
+	</body>
 </html>

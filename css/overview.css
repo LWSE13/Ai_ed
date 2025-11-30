@@ -11,7 +11,6 @@
     text-align: center;
     color: var(--text-dark);
     margin-bottom: 1rem;
-    padding-bottom: 1rem;
     display: inline-block;
     width: 100%;
 }
@@ -24,7 +23,7 @@
 }
 
 .overview-image {
-    width: 300px;
+    width: 400px;
     height: auto;
     object-fit: contain;
     flex-shrink: 0;
@@ -64,7 +63,12 @@
     border-radius: 8px;
     padding: 2rem 1.5rem;
     position: relative;
-    transition: transform 0.3s;
+    transition: all 0.3s;
+    min-height: 150px;
+}
+
+.benefit-card.expanded {
+    padding-bottom: 4rem;
 }
 
 .benefit-card:hover {
@@ -82,10 +86,27 @@
 }
 
 .card-description {
+    display: none;
     font-size: 1rem;
     line-height: 1.6;
     color: var(--text-dark);
     text-align: center;
+    animation: fadeIn 0.3s ease-in;
+}
+
+.benefit-card.expanded .card-description {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .expand-btn {
