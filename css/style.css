@@ -120,6 +120,12 @@ nav {
     height: 80%;
 }
 
+.content-title-underlining {
+    width: 20%;
+    height: 3px;
+    background-color: var(--col-gray);
+}
+
 /* Main Content */
 main {
     flex: 1;
