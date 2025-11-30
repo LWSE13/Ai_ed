@@ -1,6 +1,6 @@
 /* Overview Page Styles */
 
-.overview-section {
+.overview-section, .under-text {
     padding: 3rem 5rem;
     max-width: 1400px;
     margin: 0 auto;
@@ -36,11 +36,15 @@
     gap: 1.5rem;
 }
 
-.overview-text p {
+.overview-text p, .under-text p {
     font-size: 1.1rem;
     line-height: 1.7;
     color: var(--text-dark);
-    text-align: justify;
+    text-align: center;
+}
+
+.under-text {
+    padding-top: 0;
 }
 
 /* Benefits Section */
@@ -51,8 +55,9 @@
 }
 
 .benefits-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 2rem;
     margin-top: 2rem;
 }
@@ -65,6 +70,12 @@
     position: relative;
     transition: all 0.3s;
     min-height: 150px;
+    width: calc(33.333% - 1.5rem);
+}
+
+.benefit-card:nth-child(4),
+.benefit-card:nth-child(5) {
+    width: calc(33.333% - 1.5rem);
 }
 
 .benefit-card.expanded {

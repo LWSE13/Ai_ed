@@ -8,7 +8,7 @@ async function injectComponent(componentPath, containerId) {
 
 // Load header first, then hamburger
 injectComponent("components/header.html", "header-placeholder")
-    .then(() => {
+    .then(() => { //.then after header loaded. Prevents breakage
         // Wait 10ms for DOM to update  to prevent breaking nav
         setTimeout(initHamburger, 10);
     });
