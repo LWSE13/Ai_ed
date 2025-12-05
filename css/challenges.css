@@ -1,49 +1,7 @@
 /* Challenges and Ethics Page Styles */
-
-.challenges-hero {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 4rem 6rem;
+#challenges-title-section {
+    padding: 3rem 6rem 2rem 6rem;
     background-color: var(--col-cream);
-    gap: 4rem;
-}
-
-.hero-content {
-    flex: 1;
-    max-width: 500px;
-}
-
-.challenges-hero h1 {
-    font-size: 3rem;
-    color: var(--col-gray);
-    margin-bottom: 1.5rem;
-    line-height: 1.2;
-    position: relative;
-}
-
-.challenges-hero h1::after {
-    content: '';
-    display: block;
-    width: 180px;
-    height: 4px;
-    background-color: var(--col-gray);
-    margin-top: 1rem;
-}
-
-.hero-description {
-    font-size: 1.1rem;
-    line-height: 1.6;
-    color: var(--col-gray);
-}
-
-.hero-image {
-    flex-shrink: 0;
-}
-
-.hero-image img {
-    width: 280px;
-    height: auto;
 }
 
 /* Ethics Section */

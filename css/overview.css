@@ -6,14 +6,6 @@
     margin: 0 auto;
 }
 
-.overview-title {
-    font-size: 3rem;
-    text-align: center;
-    color: var(--text-dark);
-    margin-bottom: 1rem;
-    display: inline-block;
-    width: 100%;
-}
 
 .overview-content {
     display: flex;

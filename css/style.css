@@ -266,6 +266,15 @@ footer p {
     font-size: 0.9rem;
 }
 
+.overview-title {
+    font-size: 3rem;
+    text-align: center;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+    display: inline-block;
+    width: 100%;
+}
+
 /* Media Queries */
 
 /* Tablets media query  */
