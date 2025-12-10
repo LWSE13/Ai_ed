@@ -97,27 +97,19 @@
     transition: transform 0.3s ease;
 }
 
-.accordion-item.active .accordion-icon {
-    transform: rotate(45deg);
-}
+
 
 .accordion-content {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3s ease, padding 0.3s ease;
+    transition: max-height 0.3s ease;
+    background-color: var(--col-cream);
     padding: 0 2rem;
 }
 
 .accordion-item.active .accordion-content {
     max-height: 500px;
-    padding: 0 2rem 1.5rem 2rem;
-}
-
-.accordion-content p {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: var(--col-gray);
-    margin: 0;
+    padding: 1rem 2rem 1.5rem 2rem;
 }
 
 /* Tablet media query */
